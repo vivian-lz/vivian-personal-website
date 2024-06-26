@@ -1,0 +1,31 @@
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    size-adjust: medium;
+  }
+
+  img.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .banner {
+    background-image: url("/assets/photos/banner.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+  }
