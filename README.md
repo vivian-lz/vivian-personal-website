@@ -22,6 +22,19 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## First time git setup
+Use this website [Git Reference](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+Should never need to do this again, but in case start with
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+To add a new repo, use 
+$ git remote add origin https://github.com/vivian-lz/vivian-personal-website.git
+replace url
+then do
+$ git push -u origin main
+main is the branch and origin is the name of repo you choose
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
