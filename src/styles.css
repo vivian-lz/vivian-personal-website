@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+.default {
+    font-family: "Helvetica";
+}
+
+.header {
+    font-family: "Helvetica";
+    font-size: "50 px";
+}
+
