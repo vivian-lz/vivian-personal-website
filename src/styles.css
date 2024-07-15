@@ -6,6 +6,17 @@
 
 .header {
     font-family: "Helvetica";
-    font-size: "50 px";
+    font-size: "xx-large";
+    font-weight: "bolder";
 }
 
+.navbar {
+    background-color: lightblue
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(40, 172, 216)
+  }
