@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './aboutMe.html',
   styleUrls: ['./aboutMe.css']
 })
-export class AppComponent {
-  title = 'vivian-website';
+export class AboutMeComponent {
+  title = 'about-me';
 }
